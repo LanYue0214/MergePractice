@@ -7,10 +7,9 @@ window.onload=function()
 
 $(document).ready(function(){
     $("input").click(function(){
-        //alert("Hi");
-        //$("H1").text("Hello");
-        $("H1").text($("li:first").text());
-        $("H1").text($("li:last").text());
-        $("H1").text($("li:last").text());
+        let numberOfListItem = $("#choices li").length;
+        let randomChildNumber = Math.floor(Math.random()*numberOfListItem);//向下整數
+        $("#random-result").text($("#choices li").eq(randomChildNumber).text());//get
+        $("#random-pic").attr("src", pictures[randomChildNumber]);//attr() 抓取圖片的屬性以及改變圖片的路徑
     });
 });

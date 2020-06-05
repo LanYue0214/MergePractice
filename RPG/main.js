@@ -17,7 +17,7 @@ $(document).ready(function()
     
     //擺主角
     imgMain = new Image();
-    imgMain.src = "simple_prg/images/spriteSheet.png";
+    imgMain.src = "RPG/images/spriteSheet.png";
     currentImgMainX = 0;
     currentImgMainY = 0;
     imgMain.onload = function()//確定圖片已經load進來
@@ -27,9 +27,9 @@ $(document).ready(function()
     
     //擺障礙物與敵人
     imgMountain = new Image();
-    imgMountain.src = "simple_prg/images/material.png";
+    imgMountain.src = "RPG/images/material.png";
     imgEnemy = new Image();
-    imgEnemy.src = "simple_prg/images/Enemy.png";
+    imgEnemy.src = "RPG/images/Enemy.png";
     imgMountain.onload = function()
     {
         imgEnemy.onload = function()
@@ -129,7 +129,7 @@ $(document).keydown(function(event)
             $("#talkBox").text("抵達終點");
             break;
         case 3:
-            $("#talkBox").text("哈囉");
+            $("#talkBox").text("是在哈囉");
             break;
    }
 })
