@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
+        <a class="navbar-brand" href="#">myWebSite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="random-select.html">五月天 團員</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="arrangement_club.html">電影票房</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mindquiz.html">心理測驗</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="simple-prg.html">要去右下角</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="youtube.html">心情點唱機</a>
+            </li>
+          <!--  <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>-->
+          <!--</ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+ <!--       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>--> 
+ <!--           <div class="carousel-item">
+            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>-->
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+      <br><br>
+      <div class="introduction" id = "me" >
+          <center><p>林品珊</p></center>
+          <center><p>生日:2000/07/08<p></center>
+          <center><p>學校: 竹北高中/元智大學</p></center>
+          <center><p>興趣:追劇, 聽音樂</p></center>
+          <center><p>email:  <a href="mailto:michelle4232@gmail.com"><font color="darkblue"><u>michelle4232@gmail.com</font></u></a></p></center>
+          <center><p>
+            <p><a href="https://www.facebook.com/michelle.lin.1000" class="btn btn-primary btn-large">show more » fb</a></p>
+        </a> 
+      <script src = "main.js"></script>
+        
+      <!--<a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Primary link</a>-->
+      <br><br>
+      <center><h2>my favorite</h2></center>
+      <br>
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://upload.wikimedia.org/wikipedia/zh/thumb/8/87/Ringstrilogyposter.jpg/220px-Ringstrilogyposter.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>電影</h2>
+            <p><h4>魔戒</h4></p>
+            <p><a class="btn btn-secondary active" href="https://www.youtube.com/watch?v=tGtNjA2MJCw" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://2.bp.blogspot.com/-ZVOraJPdhzs/WEHwKfBNjeI/AAAAAAAAeuA/EDOQtauBGWUcc9f0DAQpXZt0pIYY0icCwCLcB/s1600/%E5%AD%A4%E5%96%AE%E5%8F%88%E7%87%A6%E7%88%9B%E7%9A%84%E7%A5%9E-%E9%AC%BC%E6%80%AA.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>戲劇</h2>
+            <p><h4>鬼怪</h4></p>
+            <p><a class="btn btn-secondary active" href="https://www.youtube.com/watch?v=jQomS_J0Yco" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="https://cdn.hk01.com/di/media/images/4452852/org/74fa42ae1e9ba815856900efa2375eb8.jpg/1RjphpgAgiF2DPwsROCu3ZjL2wgEMS7RmmMJsppjCbI?v=w1920" alt="Generic placeholder image" width="140" height="140">
+            <h2>歌曲</h2>
+            <p><h4>eight</h4></p>
+            <p><a class="btn btn-secondary active" href="https://www.youtube.com/watch?v=TgOu00Mf3kI" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <!-- START THE FEATURETTES -->
+        <hr class="featurette-divider">
+        <left><h2>idol</h2></left>
+        <br><br><br><br>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Byun Baek-hyun <br><br><span class="text-muted"><h4>EXO成員</h4></span></h2>
+            <p><a href="https://www.instagram.com/baekhyunee_exo/?hl=zh-tw" class="btn btn-third btn-large">show more » ig</a></p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="https://i.pinimg.com/originals/15/2f/0e/152f0ec79f0642cdc2392b59d4531402.jpg" width="300" height="200"alt="Generic placeholder image">
+          </div>
+        </div>
+       
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">IU <br><br><span class="text-muted"><h4>韓國歌手, 演員</h4></span></h2>
+            <p><a href="https://www.instagram.com/dlwlrma/?hl=zh-tw" class="btn btn-third btn-large">show more » ig</a></p>
+            <!--<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>-->
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="https://i.pinimg.com/564x/0e/d8/2e/0ed82e2877b619ab215f136759ccb7d3.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">五月天 <br><br><span class="text-muted"><h4>台灣樂團</h4></span></h2>
+            <p><a href="https://www.instagram.com/imayday55555/?hl=zh-tw" class="btn btn-third btn-large">show more » ig</a></p>
+            <!--<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<
